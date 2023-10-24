@@ -1,26 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<link rel="shortcut icon" href="#">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Weather Data Visualization</title>
-<script src="Assets/d3.min.js"></script>
-<style>
-    .axis-label {
-        font-size: 14px;
-    }
-    .axis path,
-    .axis line {
-        shape-rendering: crispEdges;
-    }
-</style>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="#">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Data Visualization</title>
+    <script src="Assets/d3.min.js"></script>    
+    <link rel="stylesheet" type="text/css" href="Assets/style.css">
 </head>
 <body>
+    <p>As preparation for the DAP project, I tested some options for interactive visualization tools. I used data from 
+        <a href=https://data.hub.geosphere.at/dataset/klima-v1-1m> here </a>
+        .
+        <br>
+        t is the monthly temperature average, tmax the maximum monthly temperature and tmin the minimum monthly temperature.
+        I start with d3.
+    </p>
+    <div class="container">
+        <div id="chart"></div>
+        <div class="dropdowns"></div>
+    </div>
 
-<div id="chart"></div>
-
-<script src="Assets/script.js"></script>
+    <script src="Assets/script.js"></script>
 
 </body>
 </html>
