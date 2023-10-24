@@ -26,12 +26,10 @@
     text-align-last:center;
 }
 
-/* Style the dropdown menus on hover */
 .dropdowns select:hover {
     background-color: #e0e0e0;
 }
 
-/* Optional: Style the dropdown options */
 .dropdowns select option {
     padding: 10px;
 }
