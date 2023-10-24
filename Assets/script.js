@@ -1,5 +1,5 @@
 // Load the CSV data
-d3.csv('data_wo_nan.csv').then(data => {
+d3.csv('Assets/data_wo_nan.csv').then(data => {
     // Parse the date and convert string to number
     data.forEach(d => {
         d.time = new Date(d.time);
