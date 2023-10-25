@@ -1,35 +1,42 @@
+.axis path, .axis line {
+  shape-rendering: crispEdges;
+}
+
 .axis-label {
-    font-size: 14px;
+  font-size: 14px;
 }
-.axis path,
-.axis line {
-    shape-rendering: crispEdges;
-}
+
 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
+.explanation {
+  text-align: justify;
+  text-align: center;
+}
+
 .dropdowns {
-    display: flex;
-    gap: 10px;
+  display: flex;
+  gap: 10px;
 }
 .dropdowns select {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    background-color: #f9f9f9;
-    font-size: 14px;
-    margin: 5px 0;  
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    appearance: none;
-    text-align-last:center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+  font-size: 14px;
+  margin: 5px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  appearance: none;
+  text-align-last: center;
 }
-
 .dropdowns select:hover {
-    background-color: #e0e0e0;
+  background-color: #e0e0e0;
+}
+.dropdowns select option {
+  padding: 10px;
 }
 
-.dropdowns select option {
-    padding: 10px;
-}
+/*# sourceMappingURL=style.css.map */
